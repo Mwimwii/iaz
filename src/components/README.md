@@ -1,0 +1,1 @@
+Use this folder for a new or copied (modified) components or widgets from the @tf folder. We recommend that you do not touch the @tf folder for easy future updates.
