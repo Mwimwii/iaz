@@ -1,9 +1,9 @@
 import store from 'store'
 import actions from './actions'
 
-const STORED_SETTINGS = storedSettings => {
+const STORED_SETTINGS = (storedSettings) => {
   const settings = {}
-  Object.keys(storedSettings).forEach(key => {
+  Object.keys(storedSettings).forEach((key) => {
     const item = store.get(`app.settings.${key}`)
     settings[key] = typeof item !== 'undefined' ? item : storedSettings[key]
   })
@@ -15,7 +15,7 @@ const initialState = {
     // Read docs for available values: https://docs.thefoundation.cloud
     // TF:REPLACE-START:SETTINGS
     authProvider: 'jwt',
-    logo: 'The Foundation',
+    logo: 'IAZ Self Service',
     version: 'air',
     theme: 'default',
     locale: 'en-US',

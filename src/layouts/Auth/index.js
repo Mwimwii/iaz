@@ -130,11 +130,15 @@ const AuthLayout = ({
             </ul>
             <div className="text-center">
               Copyright © {new Date().getFullYear()}{' '}
-              <a href="https://sellpixels.com" target="_blank" rel="noopener noreferrer">
-                Sellpixels.com
+              <a href="https://app.thefoundation.cloud" target="_blank" rel="noopener noreferrer">
+                app.thefoundation.cloud
               </a>
               {' | '}
-              <a href="https://sellpixels.com/privacy" target="_blank" rel="noopener noreferrer">
+              <a
+                href="https://app.thefoundation.cloud/privacy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Privacy Policy
               </a>
             </div>

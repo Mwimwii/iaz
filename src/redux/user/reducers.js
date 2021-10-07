@@ -5,7 +5,7 @@ const DEV = process.env.REACT_APP_AUTHENTICATED
       id: '1',
       name: 'Tom Jones',
       role: 'admin',
-      email: 'demo@sellpixels.com',
+      email: 'demo@iaz.org.zm',
       avatar: '',
       authorized: true,
     }

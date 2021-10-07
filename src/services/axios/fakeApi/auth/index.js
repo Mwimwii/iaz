@@ -4,8 +4,8 @@ import mock from '../mock'
 const users = [
   {
     id: 1,
-    email: 'demo@thefoundation.cloud',
-    password: 'TheFoundation',
+    email: 'demo@iaz.org.zm',
+    password: 'Lusaka123',
     name: 'Tom Jones',
     avatar: '',
     role: 'admin',

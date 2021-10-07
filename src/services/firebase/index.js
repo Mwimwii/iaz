@@ -5,9 +5,9 @@ import 'firebase/database'
 
 const firebaseConfig = {
   apiKey: 'AIzaSyBJVhr2WZshEGR7egcxoygQIphKOkKVIYQ',
-  authDomain: 'sellpixels-7d5d4.firebaseapp.com',
-  databaseURL: 'https://sellpixels-7d5d4.firebaseio.com',
-  projectId: 'sellpixels-7d5d4',
+  authDomain: 'thefoundation-7d5d4.firebaseapp.com',
+  databaseURL: 'https://thefoundation-7d5d4.firebaseio.com',
+  projectId: 'thefoundation-7d5d4',
   storageBucket: 'cleanui-72a42.appspot.com',
   messagingSenderId: '338219933237',
 }

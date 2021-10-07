@@ -77,7 +77,7 @@ const Login = ({ dispatch, user, authProvider, logo, version }) => {
         <div className="mb-4">
           Login and password
           <br />
-          <strong>demo@thefoundation.cloud / TheFoundation</strong>
+          <strong>demo@iaz.org.zm / Lusaka123</strong>
         </div>
         <div className="mb-4">
           <Radio.Group onChange={(e) => changeAuthProvider(e.target.value)} value={authProvider}>
@@ -101,7 +101,7 @@ const Login = ({ dispatch, user, authProvider, logo, version }) => {
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
           className="mb-4"
-          initialValues={{ email: 'demo@thefoundation.cloud', password: 'TheFoundation' }}
+          initialValues={{ email: 'demo@iaz.org.zm', password: 'Lusaka123' }}
         >
           <Form.Item
             name="email"

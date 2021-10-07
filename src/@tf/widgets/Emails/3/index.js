@@ -381,7 +381,7 @@ const Email = () => {
             }}
           >
             <p>
-              Sellpixels.com LTD., Abbey Road, San Francisco CA 94102
+              app.thefoundation.cloud LTD., Abbey Road, San Francisco CA 94102
               <br />
               Don&apos;t like these emails?{' '}
               <a style={{ color: '#a09bb9', textDecoration: 'underline' }}>Unsubscribe</a>
