@@ -13,7 +13,7 @@ const Table1 = () => {
                 {item.type === 'file' && <i className="fe fe-file" />}
               </td>
               <td>
-                <a href="#" className="vb__utils__link" onClick={(e) => e.preventDefault()}>
+                <a href="#" className="tf__utils__link" onClick={(e) => e.preventDefault()}>
                   {item.name}
                 </a>
               </td>

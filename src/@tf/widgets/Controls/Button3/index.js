@@ -7,7 +7,7 @@ const ButtonComponent = ({ data }) => {
       <Button type={data.mainType} className="mr-4">
         {data.mainTitle}
       </Button>
-      <a href="#" onClick={(e) => e.preventDefault()} className="vb__utils__link">
+      <a href="#" onClick={(e) => e.preventDefault()} className="tf__utils__link">
         {data.additionalTitle}
       </a>
     </div>

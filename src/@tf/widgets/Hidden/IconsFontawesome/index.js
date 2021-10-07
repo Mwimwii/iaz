@@ -11,7 +11,7 @@ const IconsFontawesome = () => {
             <h3 className="text-block mt-5 mb-4">
               <strong>{iconsSet.setName}</strong>
             </h3>
-            <ul className="vb__utils__iconPresent list-unstyled">
+            <ul className="tf__utils__iconPresent list-unstyled">
               {iconsSet.icons.map((icon) => (
                 <Tooltip title={`fa ${icon}`} key={icon}>
                   <li>

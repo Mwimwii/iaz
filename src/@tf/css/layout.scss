@@ -1,6 +1,6 @@
 @import 'mixins.scss';
 
-.vb {
+.tf {
   &__layout {
     min-height: 100vh !important;
 
@@ -25,7 +25,7 @@
     }
 
     &__contentMaxWidth {
-      .vb__layout__content {
+      .tf__layout__content {
         max-width: rem(1280);
         margin: 0 auto;
       }
@@ -76,8 +76,8 @@
 }
 
 // dark theme
-[data-vb-theme='dark'] {
-  .vb {
+[data-tf-theme='dark'] {
+  .tf {
     &__layout {
       &__grayBackground,
       &__headerGray {

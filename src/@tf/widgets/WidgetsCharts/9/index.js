@@ -55,7 +55,7 @@ const Chart9 = () => {
       const { labels } = chart.data
       let legendMarkup = []
       const dataset = chart.data.datasets[0]
-      legendMarkup.push('<div class="vb__c9__chartLegend flex-shrink-0">')
+      legendMarkup.push('<div class="tf__c9__chartLegend flex-shrink-0">')
       let legends = labels.map((label, index) => {
         const color = dataset.backgroundColor[index]
         return `<div class="d-flex align-items-center flex-nowrap mt-2 mb-2"><div class="tablet mr-3" style="background-color: ${color}"></div>${label}</div>`

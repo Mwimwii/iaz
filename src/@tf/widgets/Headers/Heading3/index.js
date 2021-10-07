@@ -2,7 +2,7 @@ import React from 'react'
 
 const Heading = ({ data }) => {
   return (
-    <div className="vb__utils__heading">
+    <div className="tf__utils__heading">
       <strong className="mr-3">{data.title}</strong>
       <a href={data.url} className="btn btn-light" target="_blank" rel="noopener noreferrer">
         <span>{data.button}</span>

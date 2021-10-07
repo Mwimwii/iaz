@@ -24,7 +24,7 @@ const dropdownMenu = (
 const General15 = () => {
   return (
     <div className="d-flex flex-nowrap align-items-start">
-      <div className="vb__utils__avatar vb__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
+      <div className="tf__utils__avatar tf__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
         <img src="resources/images/avatars/3.jpg" alt="Mary Stanform" />
       </div>
       <div className="flex-grow-1">
@@ -56,7 +56,7 @@ const General15 = () => {
           </div>
         </div>
         <div className="d-flex flex-nowrap align-items-start pt-4">
-          <div className="vb__utils__avatar vb__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
+          <div className="tf__utils__avatar tf__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
             <img src="resources/images/avatars/1.jpg" alt="Mary Stanform" />
           </div>
           <div className="flex-grow-1">
@@ -90,7 +90,7 @@ const General15 = () => {
           </div>
         </div>
         <div className="d-flex flex-nowrap align-items-start pt-4">
-          <div className="vb__utils__avatar vb__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
+          <div className="tf__utils__avatar tf__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
             <img src="resources/images/avatars/4.jpg" alt="Mary Stanform" />
           </div>
           <div className="flex-grow-1">
@@ -124,7 +124,7 @@ const General15 = () => {
           </div>
         </div>
         <div className="d-flex flex-nowrap align-items-start pt-4">
-          <div className="vb__utils__avatar vb__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
+          <div className="tf__utils__avatar tf__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
             <img src="resources/images/avatars/5.jpg" alt="Mary Stanform" />
           </div>
           <div className="flex-grow-1">
@@ -158,7 +158,7 @@ const General15 = () => {
           </div>
         </div>
         <div className="d-flex flex-nowrap align-items-start pt-4">
-          <div className="vb__utils__avatar vb__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
+          <div className="tf__utils__avatar tf__utils__avatar--size64 mr-4 flex-shrink-0 align-self-start">
             <img src="resources/images/avatars/2.jpg" alt="Mary Stanform" />
           </div>
           <div className="flex-grow-1">

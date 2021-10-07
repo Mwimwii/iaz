@@ -33,7 +33,7 @@ const ForgotPassword = () => {
             <strong>Reset my password</strong>
           </Button>
         </Form>
-        <Link to="/auth/login" className="vb__utils__link">
+        <Link to="/auth/login" className="tf__utils__link">
           <i className="fe fe-arrow-left mr-1 align-middle" />
           Go to Sign in
         </Link>

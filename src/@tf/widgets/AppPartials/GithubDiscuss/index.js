@@ -7,7 +7,7 @@ const GithubDiscuss = () => {
         <a
           href="#"
           onClick={(e) => e.preventDefault()}
-          className="vb__utils__avatar vb__utils__avatar--size50 mr-3 flex-shrink-0"
+          className="tf__utils__avatar tf__utils__avatar--size50 mr-3 flex-shrink-0"
         >
           <img src="resources/images/avatars/5.jpg" alt="Mary Stanform" />
         </a>

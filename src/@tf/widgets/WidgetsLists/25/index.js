@@ -28,17 +28,17 @@ const List25 = () => {
       </div>
       <div className="py-3">
         <div className="font-weight-bold mb-2">4 participants</div>
-        <div className="vb__utils__avatarGroup mb-3">
-          <div className="vb__utils__avatar vb__utils__avatar--size46">
+        <div className="tf__utils__avatarGroup mb-3">
+          <div className="tf__utils__avatar tf__utils__avatar--size46">
             <img src="resources/images/avatars/1.jpg" alt="User 1" />
           </div>
-          <div className="vb__utils__avatar vb__utils__avatar--size46">
+          <div className="tf__utils__avatar tf__utils__avatar--size46">
             <img src="resources/images/avatars/2.jpg" alt="User 2" />
           </div>
-          <div className="vb__utils__avatar vb__utils__avatar--size46">
+          <div className="tf__utils__avatar tf__utils__avatar--size46">
             <img src="resources/images/avatars/3.jpg" alt="User 3" />
           </div>
-          <div className="vb__utils__avatar vb__utils__avatar--size46">
+          <div className="tf__utils__avatar tf__utils__avatar--size46">
             <img src="resources/images/avatars/4.jpg" alt="User 4" />
           </div>
         </div>

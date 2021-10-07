@@ -23,14 +23,14 @@ const Utilities = () => {
               <tbody>
                 <tr>
                   <td className="text-nowrap">
-                    <code>.vb__utils__link</code>
+                    <code>.tf__utils__link</code>
                   </td>
                   <td>
                     <a
                       href=""
                       rel="noopener noreferrer"
                       target="_blank"
-                      className="vb__utils__link"
+                      className="tf__utils__link"
                     >
                       Blue Link
                     </a>
@@ -38,10 +38,10 @@ const Utilities = () => {
                 </tr>
                 <tr>
                   <td className="text-nowrap">
-                    <code>.vb__utils__link__underlined</code>
+                    <code>.tf__utils__link__underlined</code>
                   </td>
                   <td>
-                    <a href="" target="_blank" className="vb__utils__link__underlined">
+                    <a href="" target="_blank" className="tf__utils__link__underlined">
                       Underlined Link
                     </a>
                   </td>

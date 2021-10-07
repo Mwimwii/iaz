@@ -57,31 +57,31 @@ class BootstrapFormExample extends React.Component {
             </FormGroup>
             <FormGroup tag="fieldset">
               <FormGroup check>
-                <Label check className="vb__utils__control vb__utils__control__radio">
+                <Label check className="tf__utils__control tf__utils__control__radio">
                   <Input type="radio" name="radio2" checked />
-                  <span className="vb__utils__control__indicator" />
+                  <span className="tf__utils__control__indicator" />
                   Option one is this and that—be sure to include why its great
                 </Label>
               </FormGroup>
               <FormGroup check>
-                <Label check className="vb__utils__control vb__utils__control__radio">
+                <Label check className="tf__utils__control tf__utils__control__radio">
                   <Input type="radio" name="radio2" />
-                  <span className="vb__utils__control__indicator" />
+                  <span className="tf__utils__control__indicator" />
                   Option two can be something else and selecting it will deselect option one
                 </Label>
               </FormGroup>
               <FormGroup check disabled>
-                <Label check className="vb__utils__control vb__utils__control__radio">
+                <Label check className="tf__utils__control tf__utils__control__radio">
                   <Input type="radio" name="radio2" disabled />
-                  <span className="vb__utils__control__indicator" />
+                  <span className="tf__utils__control__indicator" />
                   Option three is disabled
                 </Label>
               </FormGroup>
             </FormGroup>
             <FormGroup check>
-              <Label check className="vb__utils__control vb__utils__control__checkbox">
+              <Label check className="tf__utils__control tf__utils__control__checkbox">
                 <Input type="checkbox" id="checkbox2" />
-                <span className="vb__utils__control__indicator" />
+                <span className="tf__utils__control__indicator" />
                 Check me out
               </Label>
             </FormGroup>
@@ -165,23 +165,23 @@ class BootstrapFormExample extends React.Component {
               </div>
               <Col sm={10}>
                 <FormGroup check>
-                  <Label check className="vb__utils__control vb__utils__control__radio">
+                  <Label check className="tf__utils__control tf__utils__control__radio">
                     <Input type="radio" name="radio2" checked />
-                    <span className="vb__utils__control__indicator" />
+                    <span className="tf__utils__control__indicator" />
                     Option one is this and that—be sure to include why its great
                   </Label>
                 </FormGroup>
                 <FormGroup check>
-                  <Label check className="vb__utils__control vb__utils__control__radio">
+                  <Label check className="tf__utils__control tf__utils__control__radio">
                     <Input type="radio" name="radio2" />
-                    <span className="vb__utils__control__indicator" />
+                    <span className="tf__utils__control__indicator" />
                     Option two can be something else and selecting it will deselect option one
                   </Label>
                 </FormGroup>
                 <FormGroup check disabled>
-                  <Label check className="vb__utils__control vb__utils__control__radio">
+                  <Label check className="tf__utils__control tf__utils__control__radio">
                     <Input type="radio" name="radio2" disabled />
-                    <span className="vb__utils__control__indicator" />
+                    <span className="tf__utils__control__indicator" />
                     Option three is disabled
                   </Label>
                 </FormGroup>
@@ -193,9 +193,9 @@ class BootstrapFormExample extends React.Component {
               </Label>
               <Col sm={{ size: 10 }}>
                 <FormGroup check>
-                  <Label check className="vb__utils__control vb__utils__control__checkbox">
+                  <Label check className="tf__utils__control tf__utils__control__checkbox">
                     <Input type="checkbox" id="checkbox2" />
-                    <span className="vb__utils__control__indicator" />
+                    <span className="tf__utils__control__indicator" />
                     Check me out
                   </Label>
                 </FormGroup>

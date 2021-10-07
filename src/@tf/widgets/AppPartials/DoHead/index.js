@@ -5,7 +5,7 @@ const DoHead = () => {
   return (
     <div>
       <div className="d-flex flex-wrap align-items-center">
-        <div className="vb__utils__avatar vb__utils__avatar--size64 flex-shrink-0 mr-4 mb-3">
+        <div className="tf__utils__avatar tf__utils__avatar--size64 flex-shrink-0 mr-4 mb-3">
           <img src="resources/images/avatars/2.jpg" alt="Mary Stanform" />
         </div>
         <div className="mr-auto mb-3">
@@ -27,7 +27,7 @@ const DoHead = () => {
           Move Resources →
         </a>
       </div>
-      <Tabs className="vb-tabs-bordered" defaultActiveKey="1">
+      <Tabs className="tf-tabs-bordered" defaultActiveKey="1">
         <Tabs.TabPane tab="Resources" key="1" />
         <Tabs.TabPane tab="Activity" key="2" />
         <Tabs.TabPane tab="Settings" key="3" />

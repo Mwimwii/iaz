@@ -4,7 +4,7 @@ import style from './style.module.scss'
 const General10v1 = () => {
   return (
     <div className="d-flex flex-wrap flex-column align-items-center">
-      <div className="vb__utils__avatar vb__utils__avatar--size64 mb-3">
+      <div className="tf__utils__avatar tf__utils__avatar--size64 mb-3">
         <img src="resources/images/avatars/5.jpg" alt="Mary Stanform" />
       </div>
       <div className="text-center">

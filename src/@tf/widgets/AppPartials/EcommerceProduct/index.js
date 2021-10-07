@@ -83,7 +83,7 @@ const EcommerceProduct = () => {
             </span>
             Add To Card
           </a>
-          <Tabs defaultActiveKey="1" className="vb-tabs-bordered">
+          <Tabs defaultActiveKey="1" className="tf-tabs-bordered">
             <Tabs.TabPane tab="Information" key="1" />
             <Tabs.TabPane tab="Description" key="2" />
           </Tabs>

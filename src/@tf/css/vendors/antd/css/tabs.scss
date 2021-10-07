@@ -12,9 +12,9 @@
   }
 }
 
-.vb-tabs,
-.vb-tabs-bold,
-.vb-tabs-pills {
+.tf-tabs,
+.tf-tabs-bold,
+.tf-tabs-pills {
   overflow: visible !important;
 
   .ant-tabs-top-bar {
@@ -59,7 +59,7 @@
   }
 }
 
-.vb-tabs-bold {
+.tf-tabs-bold {
   .ant-tabs-nav {
     .ant-tabs-ink-bar {
       height: 7px !important;
@@ -69,7 +69,7 @@
   }
 }
 
-.vb-tabs-pills {
+.tf-tabs-pills {
   .ant-tabs-ink-bar {
     display: none !important;
   }
@@ -82,13 +82,13 @@
   }
 }
 
-.vb-tabs-bordered {
+.tf-tabs-bordered {
   .ant-tabs-nav-list {
     padding-left: rem(24);
     padding-right: rem(24);
   }
 
-  &.vb-tabs-bold {
+  &.tf-tabs-bold {
     .ant-tabs-top-bar {
       border-bottom: 1px solid $border;
     }
@@ -97,7 +97,7 @@
 
 ////////////////////////////////////////////////////////////////////////////////////////////
 // DARK THEME STYLES
-[data-vb-theme='dark'] {
+[data-tf-theme='dark'] {
   .ant-tabs {
     .ant-tabs-card-bar {
       .ant-tabs-tab {

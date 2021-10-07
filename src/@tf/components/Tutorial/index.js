@@ -50,10 +50,10 @@ const TutorialComponent = () => {
   }
 
   // prevent in the-foundation
-  const isVb = process.env.REACT_APP_TF
+  const isTf = process.env.REACT_APP_TF
 
   // prevent if touched
-  const hidden = store.get(`app.settings.tutorialTouched`) || isInIframe() || isVb
+  const hidden = store.get(`app.settings.tutorialTouched`) || isInIframe() || isTf
   const [isTourOpen, setIsTourOpen] = useState(!hidden)
 
   const closeTour = () => {

@@ -17,7 +17,7 @@ const Lockscreen = () => {
       <div className={`card ${style.container}`}>
         <div className="text-dark text-center font-size-32 mb-3">Account Locked</div>
         <div className="text-center">
-          <div className="vb__utils__avatar vb__utils__avatar--size64 d-inline-block mb-2">
+          <div className="tf__utils__avatar tf__utils__avatar--size64 d-inline-block mb-2">
             <img src="resources/images/avatars/2.jpg" alt="Mary Stanform" />
           </div>
           <div className="font-size-18 text-dark mb-4">
@@ -44,7 +44,7 @@ const Lockscreen = () => {
       </div>
       <div className="text-center pt-2 mb-auto">
         <span className="mr-2">Already have an account?</span>
-        <Link to="/auth/login" className="vb__utils__link">
+        <Link to="/auth/login" className="tf__utils__link">
           Sign in
         </Link>
       </div>

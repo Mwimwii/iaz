@@ -35,7 +35,7 @@ const GithubHead = () => {
           </div>
         </div>
       </div>
-      <Tabs className="vb-tabs-bordered" defaultActiveKey="1">
+      <Tabs className="tf-tabs-bordered" defaultActiveKey="1">
         <Tabs.TabPane tab="Code" key="1" />
         <Tabs.TabPane
           tab={

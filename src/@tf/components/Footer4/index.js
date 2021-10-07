@@ -20,32 +20,32 @@ const Footer = ({ settings: { isContentMaxWidth, logo, version } }) => {
               <div className="row">
                 <div className="col-sm-6">
                   <div className="d-flex flex-column">
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       Documentation
                     </a>
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       Service Rules
                     </a>
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       User Settings
                     </a>
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       Dashboard Setings
                     </a>
                   </div>
                 </div>
                 <div className="col-sm-6">
                   <div className="d-flex flex-column mb-4">
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       User Settings
                     </a>
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       Dashboard Settings
                     </a>
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       Documentation
                     </a>
-                    <a className="mb-1 vb__utils__link" href="#">
+                    <a className="mb-1 tf__utils__link" href="#">
                       Service Rules
                     </a>
                   </div>

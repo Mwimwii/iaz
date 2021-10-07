@@ -4,7 +4,7 @@ const General7 = () => {
   return (
     <div>
       <div className="d-flex flex-wrap align-items-center mb-2">
-        <div className="flex-shrink-0 vb__utils__avatar mr-4 mb-2">
+        <div className="flex-shrink-0 tf__utils__avatar mr-4 mb-2">
           <img src="resources/images/avatars/5.jpg" alt="Mary Stanform" />
         </div>
         <div className="mb-2">

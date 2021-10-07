@@ -10,7 +10,7 @@ const columns = [
     render: (text) => {
       return (
         <div>
-          <div className="vb__utils__avatar">
+          <div className="tf__utils__avatar">
             <img src={text} alt="User avatar" />
           </div>
         </div>

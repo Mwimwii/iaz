@@ -30,7 +30,7 @@ class BootstrapTooltipsExample extends React.Component {
         <div className="mb-5">
           <p>
             Somewhere in here is a{' '}
-            <span className="vb__utils__link" id="TooltipExample">
+            <span className="tf__utils__link" id="TooltipExample">
               tooltip
             </span>
             .

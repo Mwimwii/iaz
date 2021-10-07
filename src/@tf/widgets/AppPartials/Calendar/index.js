@@ -81,19 +81,19 @@ const AppsCalendar = () => {
           <div className="text-uppercase text-dark font-weight-bold mb-3">Events</div>
           <div className="d-flex flex-wrap">
             <div className={style.event}>
-              <div className="vb__utils__donut vb__utils__donut--danger" />
+              <div className="tf__utils__donut tf__utils__donut--danger" />
               Meeting
             </div>
             <div className={style.event}>
-              <div className="vb__utils__donut vb__utils__donut--primary" />
+              <div className="tf__utils__donut tf__utils__donut--primary" />
               Holidays
             </div>
             <div className={style.event}>
-              <div className="vb__utils__donut vb__utils__donut--orange" />
+              <div className="tf__utils__donut tf__utils__donut--orange" />
               Milestones
             </div>
             <div className={style.event}>
-              <div className="vb__utils__donut vb__utils__donut--success" />
+              <div className="tf__utils__donut tf__utils__donut--success" />
               Conference
             </div>
           </div>

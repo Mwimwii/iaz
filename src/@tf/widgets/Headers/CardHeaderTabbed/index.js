@@ -9,7 +9,7 @@ const HeaderTabbed = ({ data }) => {
           <strong>{data.title}</strong>
         </h5>
       </div>
-      <Tabs defaultActiveKey="1" className="vb-tabs">
+      <Tabs defaultActiveKey="1" className="tf-tabs">
         <Tabs.TabPane tab="History" key="1" />
         <Tabs.TabPane tab="Information" key="2" />
         <Tabs.TabPane tab="Actions" key="3" />

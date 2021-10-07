@@ -37,13 +37,13 @@ const columns = [
     key: 'users',
     render: (users) => {
       return (
-        <div className={`vb__utils__avatarGroup ${users.length ? '' : 'd-none'}`}>
+        <div className={`tf__utils__avatarGroup ${users.length ? '' : 'd-none'}`}>
           {users.map((user) => (
-            <div key={Math.random()} className="vb__utils__avatar vb__utils__avatar--rounded">
+            <div key={Math.random()} className="tf__utils__avatar tf__utils__avatar--rounded">
               <img src={user} alt="User Avatar" />
             </div>
           ))}
-          <button type="button" className="vb__utils__avatarGroupAdd">
+          <button type="button" className="tf__utils__avatarGroupAdd">
             <i className="fe fe-plus" />
           </button>
         </div>

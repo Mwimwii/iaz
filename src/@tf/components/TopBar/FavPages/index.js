@@ -100,7 +100,7 @@ const FavPages = ({ menuData = [], intl: { formatMessage } }) => {
 
   const menu = (
     <React.Fragment>
-      <div className="card vb__utils__shadow width-300">
+      <div className="card tf__utils__shadow width-300">
         <div className="card-body p-1 ">
           <div className="p-2">
             <Input

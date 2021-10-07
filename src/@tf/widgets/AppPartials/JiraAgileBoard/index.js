@@ -14,7 +14,7 @@ const ExtraAppsJiraAgileBoard = () => {
         </div>
         <div className="text-gray-5 mb-2">Deadline 7:00</div>
         <div className="d-flex align-items-center flex-wrap pb-2">
-          <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size27 flex-shrink-0 mr-2">
+          <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size27 flex-shrink-0 mr-2">
             <img src="resources/images/avatars/2.jpg" alt="User" />
           </div>
           <div className="text-gray-5">
@@ -32,7 +32,7 @@ const ExtraAppsJiraAgileBoard = () => {
         </div>
         <div className="text-gray-5 mb-2">Deadline 7:00</div>
         <div className="d-flex align-items-center flex-wrap pb-2">
-          <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size27 flex-shrink-0 mr-2">
+          <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size27 flex-shrink-0 mr-2">
             <img src="resources/images/avatars/1.jpg" alt="User" />
           </div>
           <div className="text-gray-5">
@@ -50,7 +50,7 @@ const ExtraAppsJiraAgileBoard = () => {
         </div>
         <div className="text-gray-5 mb-2">Deadline 7:00</div>
         <div className="d-flex align-items-center flex-wrap pb-2">
-          <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size27 flex-shrink-0 mr-2">
+          <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size27 flex-shrink-0 mr-2">
             <img src="resources/images/avatars/4.jpg" alt="Mary Stanform" />
           </div>
           <div className="text-gray-5">
@@ -71,7 +71,7 @@ const ExtraAppsJiraAgileBoard = () => {
         </div>
         <div className="text-gray-5 mb-2">Deadline 7:00</div>
         <div className="d-flex align-items-center flex-wrap pb-2">
-          <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size27 flex-shrink-0 mr-2">
+          <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size27 flex-shrink-0 mr-2">
             <img src="resources/images/avatars/4.jpg" alt="Mary Stanform" />
           </div>
           <div className="text-gray-5">
@@ -92,7 +92,7 @@ const ExtraAppsJiraAgileBoard = () => {
         </div>
         <div className="text-gray-5 mb-2">Deadline 7:00</div>
         <div className="d-flex align-items-center flex-wrap pb-2">
-          <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size27 flex-shrink-0 mr-2">
+          <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size27 flex-shrink-0 mr-2">
             <img src="resources/images/avatars/1.jpg" alt="User" />
           </div>
           <div className="text-gray-5">
@@ -109,20 +109,20 @@ const ExtraAppsJiraAgileBoard = () => {
     <div>
       <Helmet title="Jira Agile Board" />
       <div className="d-flex align-items-center mb-4">
-        <div className="vb__utils__avatarGroup mr-4 flex-shrink-0">
-          <div className="vb__utils__avatar vb__utils__avatar--size46 vb__utils__avatar--rounded">
+        <div className="tf__utils__avatarGroup mr-4 flex-shrink-0">
+          <div className="tf__utils__avatar tf__utils__avatar--size46 tf__utils__avatar--rounded">
             <img src="resources/images/avatars/1.jpg" alt="User 1" />
           </div>
-          <div className="vb__utils__avatar vb__utils__avatar--size46 vb__utils__avatar--rounded">
+          <div className="tf__utils__avatar tf__utils__avatar--size46 tf__utils__avatar--rounded">
             <img src="resources/images/avatars/2.jpg" alt="User 2" />
           </div>
-          <div className="vb__utils__avatar vb__utils__avatar--size46 vb__utils__avatar--rounded">
+          <div className="tf__utils__avatar tf__utils__avatar--size46 tf__utils__avatar--rounded">
             <img src="resources/images/avatars/3.jpg" alt="User 3" />
           </div>
-          <div className="vb__utils__avatar vb__utils__avatar--size46 vb__utils__avatar--rounded">
+          <div className="tf__utils__avatar tf__utils__avatar--size46 tf__utils__avatar--rounded">
             <img src="resources/images/avatars/4.jpg" alt="User 4" />
           </div>
-          <button type="button" className="vb__utils__avatarGroupAdd">
+          <button type="button" className="tf__utils__avatarGroupAdd">
             <i className="fe fe-plus" />
           </button>
         </div>

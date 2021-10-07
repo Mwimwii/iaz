@@ -1,6 +1,6 @@
 @import 'mixins.scss';
 
-.vb__sidebar {
+.tf__sidebar {
   width: 280px;
   position: fixed;
   z-index: 999;
@@ -114,8 +114,8 @@
 }
 
 // dark theme
-[data-vb-theme='dark'] {
-  .vb__sidebar {
+[data-tf-theme='dark'] {
+  .tf__sidebar {
     background: $dark-gray-6;
 
     &__select {

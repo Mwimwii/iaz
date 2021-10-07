@@ -1,6 +1,6 @@
 @import 'mixins.scss';
 
-[data-vb-version='clean'] {
+[data-tf-version='clean'] {
   body {
     font-family: 'Mukta', sans-serif;
   }
@@ -9,7 +9,7 @@
     font-family: 'Mukta', sans-serif;
   }
 
-  .vb__utils {
+  .tf__utils {
     &__heading {
       padding-left: 0;
 

@@ -30,7 +30,7 @@
   opacity: 1;
   z-index: 10000;
 
-  -webvb-transform: rotate(3deg) translate(0, -4px);
+  -webtf-transform: rotate(3deg) translate(0, -4px);
   -ms-transform: rotate(3deg) translate(0, -4px);
   transform: rotate(3deg) translate(0, -4px);
 }
@@ -68,7 +68,7 @@
   border-left-color: $primary;
   border-radius: 50%;
 
-  -webvb-animation: nprogress-spinner 400ms linear infinite;
+  -webtf-animation: nprogress-spinner 400ms linear infinite;
   animation: nprogress-spinner 400ms linear infinite;
 }
 
@@ -82,12 +82,12 @@
   position: absolute;
 }
 
-@-webvb-keyframes nprogress-spinner {
+@-webtf-keyframes nprogress-spinner {
   0% {
-    -webvb-transform: rotate(0deg);
+    -webtf-transform: rotate(0deg);
   }
   100% {
-    -webvb-transform: rotate(360deg);
+    -webtf-transform: rotate(360deg);
   }
 }
 @keyframes nprogress-spinner {
@@ -100,7 +100,7 @@
 }
 
 // dark theme
-[data-vb-theme='dark'] {
+[data-tf-theme='dark'] {
   #nprogress {
     .spinner {
       color: $white;

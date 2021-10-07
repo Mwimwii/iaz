@@ -1,7 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import classNames from 'classnames'
-import General14 from '@vb/widgets/WidgetsGeneral/14'
+import General14 from '@tf/widgets/WidgetsGeneral/14'
 import style from './style.module.scss'
 
 const mapStateToProps = ({ settings }) => ({ settings })
@@ -24,7 +24,7 @@ const SupportChat = ({ settings: { isSupportChatOpen }, dispatch }) => {
         tabIndex="0"
         onClick={toggleSupportChat}
         onKeyPress={toggleSupportChat}
-        className="vb__utils__sidebar__button vb__utils__sidebar__button__long"
+        className="tf__utils__sidebar__button tf__utils__sidebar__button__long"
       >
         <i className="fe fe-message-square mr-md-2" />
         <span className="d-none d-md-inline">Support Chat</span>

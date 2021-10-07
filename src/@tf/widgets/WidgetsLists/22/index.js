@@ -29,7 +29,7 @@ const List22 = () => {
               index === activeIndex ? style.current : ''
             } d-flex flex-nowrap align-items-center`}
           >
-            <div className="vb__utils__avatar vb__utils__avatar--size46 mr-3 flex-shrink-0">
+            <div className="tf__utils__avatar tf__utils__avatar--size46 mr-3 flex-shrink-0">
               <img src={item.avatar} alt={item.name} />
             </div>
             <div className={`${style.info} flex-grow-1`}>

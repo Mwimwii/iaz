@@ -1,7 +1,7 @@
 @import 'mixins.scss';
 
 :root {
-  --vb-color-primary: #4b7cf3;
+  --tf-color-primary: #4b7cf3;
 }
 
 html {
@@ -77,7 +77,7 @@ strong {
 }
 
 // dark theme
-[data-vb-theme='dark'] {
+[data-tf-theme='dark'] {
   body {
     background: $dark-gray-5;
     color: $dark-gray-1;

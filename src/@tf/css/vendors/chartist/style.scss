@@ -29,12 +29,12 @@
 }
 
 @mixin ct-align-justify($ct-text-align: $ct-text-align, $ct-text-justify: $ct-text-justify) {
-  -webvb-box-align: $ct-text-align;
-  -webvb-align-items: $ct-text-align;
+  -webtf-box-align: $ct-text-align;
+  -webtf-align-items: $ct-text-align;
   -ms-flex-align: $ct-text-align;
   align-items: $ct-text-align;
-  -webvb-box-pack: $ct-text-justify;
-  -webvb-justify-content: $ct-text-justify;
+  -webtf-box-pack: $ct-text-justify;
+  -webtf-justify-content: $ct-text-justify;
   -ms-flex-pack: $ct-text-justify;
   justify-content: $ct-text-justify;
   // Fallback to text-align for non-flex browsers
@@ -50,10 +50,10 @@
 @mixin ct-flex() {
   // Fallback to block
   display: block;
-  display: -webvb-box;
+  display: -webtf-box;
   display: -moz-box;
   display: -ms-flexbox;
-  display: -webvb-flex;
+  display: -webtf-flex;
   display: flex;
 }
 
@@ -285,7 +285,7 @@
 }
 
 // dark theme
-[data-vb-theme='dark'] {
+[data-tf-theme='dark'] {
   .ct-grid {
     stroke: $dark-gray-3;
   }

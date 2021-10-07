@@ -1,7 +1,7 @@
 /* eslint-disable */
 const GetPostProcessor = function () {
   function Processor(themeName) {
-    this.options = { wrappers: [`[data-vb-theme="${themeName}"]`] } || {}
+    this.options = { wrappers: [`[data-tf-theme="${themeName}"]`] } || {}
   }
 
   Processor.prototype = {

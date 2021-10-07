@@ -13,7 +13,7 @@ const General19 = () => {
       </div>
       <div className="d-flex flex-column flex-sm-row">
         <div className={`${style.user} text-center pl-4 pr-5 flex-shrink-0`}>
-          <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size84 border border-5 border-white d-inline-block">
+          <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size84 border border-5 border-white d-inline-block">
             <img src="resources/images/avatars/2.jpg" alt="Mary Stanform" />
           </div>
           <div className="font-size-14 font-weight-bold">Helen Maggie</div>

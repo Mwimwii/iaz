@@ -9,7 +9,7 @@ class BootstrapLayoutExample extends React.Component {
           <strong>Default Layout</strong>
         </h5>
         <div className="mb-5">
-          <div className="vb__utils__docs">
+          <div className="tf__utils__docs">
             <Container fluid>
               <Row>
                 <Col>.col</Col>
@@ -57,7 +57,7 @@ class BootstrapLayoutExample extends React.Component {
           <strong>Containers</strong>
         </h5>
         <div className="mb-5">
-          <div className="vb__utils__docs">
+          <div className="tf__utils__docs">
             <Container className="themed-container">.container</Container>
             <Container className="themed-container" fluid="sm">
               .container-sm
@@ -80,7 +80,7 @@ class BootstrapLayoutExample extends React.Component {
           <strong>Row Columns</strong>
         </h5>
         <div className="mb-5">
-          <div className="vb__utils__docs">
+          <div className="tf__utils__docs">
             <Container fluid>
               <Row xs="2">
                 <Col>Column</Col>

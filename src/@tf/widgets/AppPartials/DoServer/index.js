@@ -32,7 +32,7 @@ const DoServer = () => {
     <div>
       <div className="d-flex align-items-center flex-wrap">
         <div className="d-flex flex-nowrap align-items-center width-200 flex-shrink-1 mr-2">
-          <div className="vb__utils__donut vb__utils__donut--danger mr-2 flex-shrink-0" />
+          <div className="tf__utils__donut tf__utils__donut--danger mr-2 flex-shrink-0" />
           <a
             href="#"
             onClick={(e) => e.preventDefault()}

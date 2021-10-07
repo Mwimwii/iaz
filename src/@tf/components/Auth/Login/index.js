@@ -124,13 +124,13 @@ const Login = ({ dispatch, user, authProvider, logo, version }) => {
             <strong>Sign in</strong>
           </Button>
         </Form>
-        <Link to="/auth/forgot-password" className="vb__utils__link">
+        <Link to="/auth/forgot-password" className="tf__utils__link">
           Forgot Password?
         </Link>
       </div>
       <div className="text-center pt-2 mb-auto">
         <span className="mr-2">Don&#39;t have an account?</span>
-        <Link to="/auth/register" className="vb__utils__link">
+        <Link to="/auth/register" className="tf__utils__link">
           Sign up
         </Link>
       </div>

@@ -44,7 +44,7 @@ const List1 = () => {
       <ul className="list-unstyled mb-0">
         <li className={style.item}>
           <a className={style.itemLink}>
-            <div className="vb__utils__avatar mr-3">
+            <div className="tf__utils__avatar mr-3">
               <img src="resources/images/avatars/5.jpg" alt="Mary Stanform" />
             </div>
             <div>
@@ -55,7 +55,7 @@ const List1 = () => {
         </li>
         <li className={style.item}>
           <a className={style.itemLink}>
-            <div className="vb__utils__avatar mr-3">
+            <div className="tf__utils__avatar mr-3">
               <img src="resources/images/avatars/1.jpg" alt="Jamie Rockstar" />
             </div>
             <div>
@@ -66,7 +66,7 @@ const List1 = () => {
         </li>
         <li className={style.item}>
           <a className={style.itemLink}>
-            <div className="vb__utils__avatar mr-3">
+            <div className="tf__utils__avatar mr-3">
               <img src="resources/images/avatars/4.jpg" alt="Jamie Rockstar" />
             </div>
             <div>

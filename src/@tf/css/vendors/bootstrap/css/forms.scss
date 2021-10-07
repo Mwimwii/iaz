@@ -3,8 +3,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 /* FORMS */
 
-input::-webvb-input-placeholder,
-textarea::-webvb-input-placeholder {
+input::-webtf-input-placeholder,
+textarea::-webtf-input-placeholder {
   color: $gray-5 !important;
 }
 
@@ -123,8 +123,8 @@ span.input-group-addon {
 }
 
 // dark theme
-[data-vb-theme='dark'] {
-  input::-webvb-input-placeholder {
+[data-tf-theme='dark'] {
+  input::-webtf-input-placeholder {
     color: $dark-gray-3 !important;
   }
 

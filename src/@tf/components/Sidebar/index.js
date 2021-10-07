@@ -148,13 +148,13 @@ const Sidebar = ({
               href="#"
               key={item}
               onClick={(e) => colorPickerHandler(e, setting, item)}
-              className={classNames(`${style.vb__sidebar__select__item}`, {
-                [style.vb__sidebar__select__item__active]: value === item,
-                [style.vb__sidebar__select__item__black]: item === 'dark',
-                [style.vb__sidebar__select__item__white]: item === 'white',
-                [style.vb__sidebar__select__item__gray]: item === 'gray',
-                [style.vb__sidebar__select__item__blue]: item === 'blue',
-                [style.vb__sidebar__select__item__img]: item === 'image',
+              className={classNames(`${style.tf__sidebar__select__item}`, {
+                [style.tf__sidebar__select__item__active]: value === item,
+                [style.tf__sidebar__select__item__black]: item === 'dark',
+                [style.tf__sidebar__select__item__white]: item === 'white',
+                [style.tf__sidebar__select__item__gray]: item === 'gray',
+                [style.tf__sidebar__select__item__blue]: item === 'blue',
+                [style.tf__sidebar__select__item__img]: item === 'image',
               })}
             />
           )
@@ -166,15 +166,15 @@ const Sidebar = ({
   return (
     <div>
       <div
-        className={classNames(style.vb__sidebar, {
-          [style.vb__sidebar__toggled]: isSidebarOpen,
+        className={classNames(style.tf__sidebar, {
+          [style.tf__sidebar__toggled]: isSidebarOpen,
         })}
       >
         <PerfectScrollbar>
-          <div className={style.vb__sidebar__inner}>
+          <div className={style.tf__sidebar__inner}>
             <a
               href="#"
-              className={`fe fe-x ${style.vb__sidebar__close}`}
+              className={`fe fe-x ${style.tf__sidebar__close}`}
               onClick={toggleSettings}
             />
             <h5 className="mb-4">
@@ -264,7 +264,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={theme === 'dark'}
                           onChange={(value) => changeSetting('theme', value ? 'dark' : 'default')}
@@ -281,7 +281,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isContentMaxWidth}
                           onChange={(value) => changeSetting('isContentMaxWidth', value)}
@@ -298,7 +298,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isAppMaxWidth}
                           onChange={(value) => changeSetting('isAppMaxWidth', value)}
@@ -315,7 +315,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isGrayBackground}
                           onChange={(value) => changeSetting('isGrayBackground', value)}
@@ -332,7 +332,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isSquaredBorders}
                           onChange={(value) => changeSetting('isSquaredBorders', value)}
@@ -349,7 +349,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isCardShadow}
                           onChange={(value) => changeSetting('isCardShadow', value)}
@@ -366,7 +366,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isBorderless}
                           onChange={(value) => changeSetting('isBorderless', value)}
@@ -383,7 +383,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isAuthTopbar}
                           onChange={(value) => changeSetting('isAuthTopbar', value)}
@@ -400,7 +400,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixColorPicker}>
+                      <div className={style.tf__sidebar__fixColorPicker}>
                         <ColorPicker
                           setting="authPagesColor"
                           value={authPagesColor}
@@ -519,7 +519,7 @@ const Sidebar = ({
                           </h6>
                         </div>
                         <div className="col-auto">
-                          <div className={style.vb__sidebar__fixColorPicker}>
+                          <div className={style.tf__sidebar__fixColorPicker}>
                             <ColorPicker
                               setting="menuColor"
                               value={menuColor}
@@ -542,7 +542,7 @@ const Sidebar = ({
                             </h6>
                           </div>
                           <div className="col-auto">
-                            <div className={style.vb__sidebar__fixColorPicker}>
+                            <div className={style.tf__sidebar__fixColorPicker}>
                               <ColorPicker
                                 setting="flyoutMenuColor"
                                 value={flyoutMenuColor}
@@ -565,7 +565,7 @@ const Sidebar = ({
                           </h6>
                         </div>
                         <div className="col-auto">
-                          <div className={style.vb__sidebar__fixSwitch}>
+                          <div className={style.tf__sidebar__fixSwitch}>
                             <Switch
                               checked={isMenuCollapsed}
                               onChange={(value) => changeSetting('isMenuCollapsed', value)}
@@ -582,7 +582,7 @@ const Sidebar = ({
                           </h6>
                         </div>
                         <div className="col-auto">
-                          <div className={style.vb__sidebar__fixSwitch}>
+                          <div className={style.tf__sidebar__fixSwitch}>
                             <Switch
                               checked={isMenuUnfixed}
                               onChange={(value) => changeSetting('isMenuUnfixed', value)}
@@ -599,7 +599,7 @@ const Sidebar = ({
                           </h6>
                         </div>
                         <div className="col-auto">
-                          <div className={style.vb__sidebar__fixSwitch}>
+                          <div className={style.tf__sidebar__fixSwitch}>
                             <Switch
                               checked={isMenuShadow}
                               onChange={(value) => changeSetting('isMenuShadow', value)}
@@ -661,7 +661,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isTopbarSeparated}
                           onChange={(value) => changeSetting('isTopbarSeparated', value)}
@@ -678,7 +678,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isTopbarFixed}
                           onChange={(value) => changeSetting('isTopbarFixed', value)}
@@ -695,7 +695,7 @@ const Sidebar = ({
                       </h6>
                     </div>
                     <div className="col-auto">
-                      <div className={style.vb__sidebar__fixSwitch}>
+                      <div className={style.tf__sidebar__fixSwitch}>
                         <Switch
                           checked={isGrayTopbar}
                           onChange={(value) => changeSetting('isGrayTopbar', value)}
@@ -777,13 +777,13 @@ const Sidebar = ({
           </div>
         </PerfectScrollbar>
       </div>
-      <div className="vb__utils__sidebar__buttons">
+      <div className="tf__utils__sidebar__buttons">
         <Tooltip title="Try The Foundation" placement="left">
           <a
             href="https://thefoundation.cloud"
             target="_blank"
             rel="noopener noreferrer"
-            className="tour-1 vb__utils__sidebar__button t-1"
+            className="tour-1 tf__utils__sidebar__button t-1"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -821,7 +821,7 @@ const Sidebar = ({
             tabIndex="0"
             onKeyPress={toggleSettings}
             onClick={toggleSettings}
-            className="tour-1 vb__utils__sidebar__button t-2"
+            className="tour-1 tf__utils__sidebar__button t-2"
           >
             <i className="fe fe-settings" />
           </a>
@@ -832,7 +832,7 @@ const Sidebar = ({
             tabIndex="0"
             onKeyPress={togglePreselectedThemes}
             onClick={togglePreselectedThemes}
-            className="tour-2 vb__utils__sidebar__button t-3"
+            className="tour-2 tf__utils__sidebar__button t-3"
           >
             <i className="fe fe-image" />
           </a>
@@ -843,7 +843,7 @@ const Sidebar = ({
             tabIndex="0"
             onKeyPress={() => changeSetting('theme', theme === 'default' ? 'dark' : 'default')}
             onClick={() => changeSetting('theme', theme === 'default' ? 'dark' : 'default')}
-            className="vb__utils__sidebar__button t-4"
+            className="tf__utils__sidebar__button t-4"
           >
             {theme === 'default' && <i className="fe fe-moon" />}
             {theme !== 'default' && <i className="fe fe-sun" />}
@@ -852,9 +852,9 @@ const Sidebar = ({
         <Tooltip title="Set Primary Color" placement="left">
           <a
             className={classNames(
-              `vb__utils__sidebar__button vb__utils__sidebar__button__color t-5`,
+              `tf__utils__sidebar__button tf__utils__sidebar__button__color t-5`,
               {
-                vb__utils__sidebar__button__color__reset: primaryColor === defaultColor,
+                tf__utils__sidebar__button__color__reset: primaryColor === defaultColor,
               },
             )}
           >
@@ -875,7 +875,7 @@ const Sidebar = ({
             href="https://docs.thefoundation.cloud"
             target="_blank"
             rel="noopener noreferrer"
-            className="vb__utils__sidebar__button t-6"
+            className="tf__utils__sidebar__button t-6"
           >
             <i className="fe fe-book-open" />
           </a>

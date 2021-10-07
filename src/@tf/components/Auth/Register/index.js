@@ -64,18 +64,18 @@ const Register = ({ dispatch, user }) => {
         </Form>
         <div>
           <span className="mr-1">By signing up, you agree to the</span>
-          <a href="#" onClick={(e) => e.preventDefault()} className="vb__utils__link">
+          <a href="#" onClick={(e) => e.preventDefault()} className="tf__utils__link">
             Terms of Service
           </a>{' '}
           and{' '}
-          <a href="#" onClick={(e) => e.preventDefault()} className="vb__utils__link">
+          <a href="#" onClick={(e) => e.preventDefault()} className="tf__utils__link">
             Privacy Policy
           </a>
         </div>
       </div>
       <div className="text-center pt-2 mb-auto">
         <span className="mr-2">Already have an account?</span>
-        <Link to="/auth/login" className="vb__utils__link">
+        <Link to="/auth/login" className="tf__utils__link">
           Sign in
         </Link>
       </div>

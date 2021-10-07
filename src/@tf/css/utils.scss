@@ -1,6 +1,6 @@
 @import 'mixins.scss';
 
-.vb__utils {
+.tf__utils {
   // link
   &__link {
     color: $primary;
@@ -254,7 +254,7 @@
     flex-wrap: nowrap;
     align-items: center;
 
-    .vb__utils__avatar {
+    .tf__utils__avatar {
       border: 3px solid $white;
       flex-shrink: 0;
 
@@ -263,48 +263,48 @@
       }
 
       &--rounded {
-        ~ .vb__utils__avatarGroupAdd {
+        ~ .tf__utils__avatarGroupAdd {
           border-radius: 50%;
         }
       }
 
       &--size27 {
-        ~ .vb__utils__avatarGroupAdd {
+        ~ .tf__utils__avatarGroupAdd {
           width: rem(27);
           height: rem(27);
         }
       }
 
       &--size46 {
-        ~ .vb__utils__avatarGroupAdd {
+        ~ .tf__utils__avatarGroupAdd {
           width: rem(46);
           height: rem(46);
         }
       }
 
       &--size50 {
-        ~ .vb__utils__avatarGroupAdd {
+        ~ .tf__utils__avatarGroupAdd {
           width: rem(50);
           height: rem(50);
         }
       }
 
       &--size64 {
-        ~ .vb__utils__avatarGroupAdd {
+        ~ .tf__utils__avatarGroupAdd {
           width: rem(64);
           height: rem(64);
         }
       }
 
       &--size110 {
-        ~ .vb__utils__avatarGroupAdd {
+        ~ .tf__utils__avatarGroupAdd {
           width: rem(110);
           height: rem(110);
         }
       }
     }
 
-    .vb__utils__avatarGroupAdd {
+    .tf__utils__avatarGroupAdd {
       flex-shrink: 0;
       width: rem(40);
       height: rem(40);
@@ -359,33 +359,33 @@
       }
     }
 
-    &:hover input ~ .vb__utils__control__indicator,
-    input:focus ~ .vb__utils__control__indicator {
+    &:hover input ~ .tf__utils__control__indicator,
+    input:focus ~ .tf__utils__control__indicator {
       background: $gray-3;
     }
 
-    input:checked ~ .vb__utils__control__indicator {
+    input:checked ~ .tf__utils__control__indicator {
       background: $primary;
     }
 
-    &:hover input:not([disabled]):checked ~ .vb__utils__control__indicator,
-    .vb__utils__control input:checked:focus ~ .vb__utils__control__indicator {
+    &:hover input:not([disabled]):checked ~ .tf__utils__control__indicator,
+    .tf__utils__control input:checked:focus ~ .tf__utils__control__indicator {
       background: $primary;
       opacity: 0.8;
     }
 
-    input:disabled ~ .vb__utils__control__indicator {
+    input:disabled ~ .tf__utils__control__indicator {
       pointer-events: none;
       opacity: 0.6;
       background: $gray-2;
     }
 
-    input:checked ~ .vb__utils__control__indicator:after {
+    input:checked ~ .tf__utils__control__indicator:after {
       display: block;
     }
 
     &__checkbox {
-      .vb__utils__control__indicator:after {
+      .tf__utils__control__indicator:after {
         top: 3px;
         left: 6px;
         width: 6px;
@@ -395,13 +395,13 @@
         border-width: 0 2px 2px 0;
       }
 
-      input:disabled ~ .vb__utils__control__indicator:after {
+      input:disabled ~ .tf__utils__control__indicator:after {
         border-color: #7b7b7b;
       }
     }
 
     &__radio {
-      .vb__utils__control__indicator {
+      .tf__utils__control__indicator {
         border-radius: 50% !important;
 
         &:after {
@@ -414,7 +414,7 @@
         }
       }
 
-      input:disabled ~ .vb__utils__control__indicator:after {
+      input:disabled ~ .tf__utils__control__indicator:after {
         background: #7b7b7b;
       }
     }
@@ -507,8 +507,8 @@
 }
 
 // dark theme
-[data-vb-theme='dark'] {
-  .vb__utils {
+[data-tf-theme='dark'] {
+  .tf__utils {
     &__link {
       color: $primary;
       &:hover {

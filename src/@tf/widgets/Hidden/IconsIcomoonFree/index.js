@@ -9,7 +9,7 @@ const IconsIcomoonFree = () => {
         <h3 className="text-block mt-5 mb-4 text-center">
           <strong>General Icons</strong>
         </h3>
-        <ul className="vb__utils__iconPresent list-unstyled">
+        <ul className="tf__utils__iconPresent list-unstyled">
           {iconsData.map((icon) => (
             <Tooltip title={icon} key={icon}>
               <li>

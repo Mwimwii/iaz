@@ -3,7 +3,7 @@ import React from 'react'
 const General23v1 = () => {
   return (
     <div className="py-4 text-center">
-      <div className="vb__utils__avatar vb__utils__avatar--rounded vb__utils__avatar--size84 border border-5 border-white d-inline-block mb-3">
+      <div className="tf__utils__avatar tf__utils__avatar--rounded tf__utils__avatar--size84 border border-5 border-white d-inline-block mb-3">
         <img src="resources/images/avatars/3.jpg" alt="Lee Aniston" />
       </div>
       <div className="font-weight-bold font-size-24 text-dark">Lee Aniston</div>

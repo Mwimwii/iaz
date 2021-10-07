@@ -4,7 +4,7 @@ import style from './style.module.scss'
 const General10 = () => {
   return (
     <div className="d-flex flex-wrap align-items-start">
-      <div className="vb__utils__avatar vb__utils__avatar--size64 mr-3">
+      <div className="tf__utils__avatar tf__utils__avatar--size64 mr-3">
         <img src="resources/images/avatars/3.jpg" alt="Mary Stanform" />
       </div>
       <div>

@@ -134,7 +134,7 @@ const GithubHead = () => {
           onClick={(e) => e.preventDefault()}
           className="flex-shrink-0 d-flex align-items-center pr-3 mr-auto text-primary mt-1 mb-1"
         >
-          <div className="vb__utils__avatar vb__utils__avatar--size27 mr-3 flex-shrink-0">
+          <div className="tf__utils__avatar tf__utils__avatar--size27 mr-3 flex-shrink-0">
             <img src="resources/images/avatars/1.jpg" alt="sorrycc" />
           </div>
           <div>sorrycc</div>

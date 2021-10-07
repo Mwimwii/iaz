@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Dropdown, Badge } from 'antd'
-import List2 from '@vb/widgets/WidgetsLists/2'
+import List2 from '@tf/widgets/WidgetsLists/2'
 import styles from './style.module.scss'
 
 const Actions = () => {
@@ -12,7 +12,7 @@ const Actions = () => {
 
   const menu = (
     <React.Fragment>
-      <div className="card vb__utils__shadow width-350 border-0">
+      <div className="card tf__utils__shadow width-350 border-0">
         <div className="card-body p-0">
           <List2 />
         </div>

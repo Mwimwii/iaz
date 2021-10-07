@@ -9,12 +9,12 @@ const GithubDiscuss = () => {
         <a
           href="#"
           onClick={(e) => e.preventDefault()}
-          className="vb__utils__avatar vb__utils__avatar--size50 mr-3 flex-shrink-0"
+          className="tf__utils__avatar tf__utils__avatar--size50 mr-3 flex-shrink-0"
         >
           <img src="resources/images/avatars/4.jpg" alt="Mary Stanform" />
         </a>
         <div className="card card-skip flex-grow-1">
-          <Tabs className="vb-tabs-bordered pt-2 px-3" defaultActiveKey="1">
+          <Tabs className="tf-tabs-bordered pt-2 px-3" defaultActiveKey="1">
             <Tabs.TabPane tab="Write" key="1" />
             <Tabs.TabPane tab="Preview" key="2" />
           </Tabs>

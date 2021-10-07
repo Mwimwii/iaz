@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { Dropdown, Badge } from 'antd'
-import General26 from '@vb/widgets/WidgetsGeneral/26'
+import General26 from '@tf/widgets/WidgetsGeneral/26'
 import styles from './style.module.scss'
 
 const Actions = () => {
@@ -12,7 +12,7 @@ const Actions = () => {
 
   const menu = (
     <React.Fragment>
-      <div className="card vb__utils__shadow width-350 border-0">
+      <div className="card tf__utils__shadow width-350 border-0">
         <div className="card-body">
           <General26 />
         </div>
