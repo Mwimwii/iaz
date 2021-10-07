@@ -10,16 +10,11 @@ const routes = [
   // TF:REPLACE-START:ROUTER-CONFIG
   {
     path: '/dashboard',
-    Component: lazy(() => import('pages/dashboard')),
-    exact: true,
-  },
-  {
-    path: '/dashboard/main',
     Component: lazy(() => import('pages/dashboard/main')),
     exact: true,
   },
   {
-    path: '/charts/chartistjs',
+    path: '/dashboard/sales',
     Component: lazy(() => import('pages/charts/chartistjs')),
     exact: true,
   },

@@ -3,32 +3,39 @@ export default async function getMenuData() {
     // TF:REPLACE-START:MENU-CONFIG
     {
       category: true,
-      title: 'Dashboards',
+      title: 'IAZ',
       key: 'q7r3hr',
     },
     {
       title: 'IAZ Dashboard',
-      key: '__dashboard',
-      url: '/dashboard',
+      category: true,
+      key: 'oi2iv',
       icon: 'fe fe-home',
       children: [
         {
           title: 'Dashboard',
-          key: 'oi2iv',
-          url: '/dashboard/main',
+          key: '__dashboard',
+          url: '/dashboard',
         },
         {
-          title: 'Chartist.js',
+          title: 'Sales',
           key: 'jlx0h',
-          url: '/charts/chartistjs',
+          url: '/dashboard/sales',
         },
       ],
     },
     {
       category: true,
+      title: 'Insurance Buyer',
+      key: 'q7r3hw',
+    },
+    {
+      category: true,
       title: 'IAZ Self Service Portal',
       key: '2t2ghm',
-    },
+      icon: 'fe fe-users',
+      children: [
+
     {
       title: 'Profile',
       key: 'e38wke',
@@ -38,35 +45,48 @@ export default async function getMenuData() {
       title: 'Policy Documents',
       key: '81n64m',
       url: '/policy-documents',
-      icon: 'fe fe-mail',
+    },
+    ]
+  },
+    {
+      category: true,
+      title: 'Insurance Company',
+      key: 'krwgag',
     },
     {
       category: true,
       title: 'Insurance Dashboard',
       key: 'krwgag',
-    },
-    {
-      title: 'Dashboard',
-      key: 'agiw5f',
-      url: '/insurance/',
-    },
-    {
-      title: 'Claims',
-      key: 'brmh5',
-      url: '/insurance/claims',
-    },
-    {
-      title: 'Policy Sales',
-      key: '2av8s2',
-      url: '/insurance/sales ',
-    },
+      icon: 'fe fe-briefcase',
+      children: [
+          {
+            title: 'Dashboard',
+            key: 'agiw5f',
+            url: '/insurance/',
+          },
+          {
+            title: 'Claims',
+            key: 'brmh5',
+            url: '/insurance/claims',
+          },
+          {
+            title: 'Policy Sales',
+            key: '2av8s2',
+            url: '/insurance/sales ',
+          },
+        ]
+      },
+      {
+        category: true,
+        title: 'Forms',
+        key: 'eer3hw',
+      },
     {
       title: 'Form Examples',
       key: 'jjiyzn',
       url: '/insurance/list',
       icon: 'fe fe-menu',
     },
-
     // TF:REPLACE-END:MENU-CONFIG
   ]
 }
