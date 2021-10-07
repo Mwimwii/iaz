@@ -45,7 +45,7 @@ const routes = [
   },
   {
     path: '/insurance/sales ',
-    Component: lazy(() => import('pages/insurance/sales ')),
+    Component: lazy(() => import('pages/insurance/sales')),
     exact: true,
   },
   {
